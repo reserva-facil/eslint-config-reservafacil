@@ -155,3 +155,15 @@ const [foo, bar] = array
 [ name: 'lero' ]
 const [ foo, bar ] = array
 ```
+
+### space-infix-ops
+
+In operations, is more clean use spaces between operators
+
+```js
+// right
+10 + 10 * 3
+
+// wrong
+10+10*3
+```
