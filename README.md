@@ -187,3 +187,16 @@ if (condition) {
 // wrong
 var name = 'lero'
 ```
+
+### strict
+
+Strict mode avoid some dangerous behaviors from javascript, like global variables when dont use `var`, but has many others, just to mention a example and not list all here.
+
+```js
+// right
+'use strict'
+const name = 'lero'
+
+// wrong
+name = 'lero'
+```
