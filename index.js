@@ -18,6 +18,7 @@ module.exports = {
     curly: [required, 'all'],
     'brace-style': [required, '1tbs'],
     quotes: [required, 'single'],
+    prefer-template: required,
     'object-curly-spacing': [required, 'never'],
     'array-bracket-spacing': [required, 'never'],
     'space-infix-ops': [required, {int32Hint: false}],

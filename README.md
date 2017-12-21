@@ -24,6 +24,7 @@ We use actively es6 and es7, below you can find descriptions and examples about 
 - [curly](#curly)
 - [brace-style](#brace-style)
 - [quotes](#quotes)
+- [prefer-template](#prefer-template)
 - [object-curly-spacing](#object-curly-spacing)
 - [array-bracket-spacing](#array-bracket-spacing)
 - [space-infix-ops](#space-infix-ops)
@@ -100,4 +101,28 @@ if (condition)
 
 // wrong
 if (condition) {}
+```
+
+#### quotes
+
+Simple quotes is more clean and confortable to type in keyboard.
+
+```js
+// right
+'lorem'
+
+// wrong
+"lorem"
+```
+
+#### prefer-template
+
+Interpolate instead concat strings, is more clean.
+
+```js
+// right
+`Hello ${name}!`
+
+// wrong
+"Hello, " + name + "!"
 ```
