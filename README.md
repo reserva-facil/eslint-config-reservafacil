@@ -35,11 +35,11 @@ We use actively es6 and es7, below you can find descriptions and examples about 
 - [block-scoped-var](#block-scoped-var)
 - [camelcase](#camelcase)
 - [eol-last](#eol-last)
-- [eqeqeq](#eqeqeq)
-<!-- - [max-depth](#max-depth) -->
-<!-- - [max-len](#max-len) -->
-- [max-statements](#max-statements)
 - [new-cap](#new-cap)
+- [eqeqeq](#eqeqeq)<--
+- [max-depth](#max-depth)
+- [max-len](#max-len)
+- [max-statements](#max-statements)
 - [no-extend-native](#no-extend-native)
 - [no-mixed-spaces-and-tabs](#no-mixed-spaces-and-tabs)
 - [no-trailing-spaces](#no-trailing-spaces)
@@ -47,7 +47,7 @@ We use actively es6 and es7, below you can find descriptions and examples about 
 - [block-spacing](#block-spacing)
 - [newline-per-chained-call](#newline-per-chained-call)
 - [keyword-spacing](#keyword-spacing)
-- [space-unary-ops](#space-unary-ops)
+- [space-unary-ops](#space-unary-ops) -->
 
 ### semi
 
@@ -294,6 +294,25 @@ Using three equals, you can compare value and type, preventing a possible logica
 
 // wrong
 10 == '10' // return true
+```
+
+### new-cap
+
+Better to read and identify that are constructor, e.g.
+
+```js
+// right
+const user = new Person()
+
+// wrong
+const user = new person()
+
+
+// right
+class Person {}
+
+// wrong
+class person {}
 ```
 
 <!-- ### max-depth
