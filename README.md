@@ -167,3 +167,23 @@ In operations, is more clean use spaces between operators
 // wrong
 10+10*3
 ```
+
+### no-var
+
+In the future, `var` will be deprecated. In es6, we have `let` as substitute.
+And variables can be changed on run time. So use `const` always that you can, to be more secure.
+
+```js
+// right
+const name = 'lero'
+
+// right
+let name
+
+if (condition) {
+  name = 'lero'
+}
+
+// wrong
+var name = 'lero'
+```
