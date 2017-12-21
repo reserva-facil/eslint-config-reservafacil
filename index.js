@@ -28,7 +28,6 @@ module.exports = {
     'no-unused-vars': [required, {vars: 'all', args: 'after-used'}],
     'block-scoped-var': required,
     camelcase: required,
-    'eol-last': required,
     eqeqeq: [required, 'smart'],
     'max-depth': [optional, 3],
     'max-len': [optional, 120],

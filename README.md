@@ -283,3 +283,15 @@ let fullName
 // wrong
 let full_name
 ```
+
+### eqeqeq
+
+Using three equals, you can compare value and type, preventing a possible logical error.
+
+```js
+// right
+10 === '10' // return false
+
+// wrong
+10 == '10' // return true
+```
