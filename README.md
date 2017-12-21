@@ -36,18 +36,7 @@ We use actively es6 and es7, below you can find descriptions and examples about 
 - [camelcase](#camelcase)
 - [eol-last](#eol-last)
 - [new-cap](#new-cap)
-- [eqeqeq](#eqeqeq)<--
-- [max-depth](#max-depth)
-- [max-len](#max-len)
-- [max-statements](#max-statements)
-- [no-extend-native](#no-extend-native)
-- [no-mixed-spaces-and-tabs](#no-mixed-spaces-and-tabs)
-- [no-trailing-spaces](#no-trailing-spaces)
-- [no-multiple-empty-lines](#no-multiple-empty-lines)
-- [block-spacing](#block-spacing)
-- [newline-per-chained-call](#newline-per-chained-call)
-- [keyword-spacing](#keyword-spacing)
-- [space-unary-ops](#space-unary-ops) -->
+- [eqeqeq](#eqeqeq)
 
 ### semi
 
