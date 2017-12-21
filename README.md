@@ -36,8 +36,8 @@ We use actively es6 and es7, below you can find descriptions and examples about 
 - [camelcase](#camelcase)
 - [eol-last](#eol-last)
 - [eqeqeq](#eqeqeq)
-- [max-depth](#max-depth)
-- [max-len](#max-len)
+<!-- - [max-depth](#max-depth) -->
+<!-- - [max-len](#max-len) -->
 - [max-statements](#max-statements)
 - [new-cap](#new-cap)
 - [no-extend-native](#no-extend-native)
@@ -295,3 +295,24 @@ Using three equals, you can compare value and type, preventing a possible logica
 // wrong
 10 == '10' // return true
 ```
+
+<!-- ### max-depth
+
+This is a warning, not required.
+Multiples functions nested can be difficult to read. Limit recommended is 3 levels.
+
+### max-len
+
+This is a warning, not required.
+Very long lines of code can be difficult to read. Limit lines of code to max 80 characters help to avoid that.
+
+```js
+// right, small and cleaver
+function (argument1, argument2, argument4) {}
+
+// right, but below is a example near to max allowed (80 characters)
+function(argument1, argument2, argument3, argument4, argument5, argument6) {}
+
+// wrong, because more than 80, is too long
+function(argument1, argument2, argument3, argument4, argument5, argument6, argument7, argument8, argument9, argument10) {}
+``` -->
