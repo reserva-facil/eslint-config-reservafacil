@@ -271,3 +271,15 @@ function test() {
   return name
 }
 ```
+
+### camelcase
+
+Completely followed by javascript community, compound names can be more legible using camel case.
+
+```js
+// right
+let fullName
+
+// wrong
+let full_name
+```
