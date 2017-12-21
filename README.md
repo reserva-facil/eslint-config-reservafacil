@@ -49,7 +49,7 @@ We use actively es6 and es7, below you can find descriptions and examples about 
 - [keyword-spacing](#keyword-spacing)
 - [space-unary-ops](#space-unary-ops)
 
-#### semi
+### semi
 
 The actual minifiers can work totally without require to you write semicolons. So to help write a cleaner code, avoid use of semicolons.
 
@@ -66,7 +66,7 @@ console.log('lorem 2');
 console.log('lorem'); console.log('lorem 2');
 ```
 
-#### curly
+### curly
 
 Sometimes we forget, or dont know about scope of conditionals in javascript without curly. To avoid confusion, always write using curly.
 
@@ -83,7 +83,7 @@ if (condition)
   console.log('lorem') // instruction2 always be executed, but looks like not
 ```
 
-#### brace-style
+### brace-style
 
 We use use the below format, for one reason, help fold and unfold scopes in code editors and IDE's.
 
@@ -103,7 +103,7 @@ if (condition)
 if (condition) {}
 ```
 
-#### quotes
+### quotes
 
 Simple quotes is more clean and confortable to type in keyboard.
 
@@ -115,7 +115,7 @@ Simple quotes is more clean and confortable to type in keyboard.
 "lorem"
 ```
 
-#### prefer-template
+### prefer-template
 
 Interpolate instead concat strings, is more clean.
 
@@ -125,4 +125,19 @@ Interpolate instead concat strings, is more clean.
 
 // wrong
 "Hello, " + name + "!"
+```
+
+
+### object-curly-spacing
+
+Without space is more clean.
+
+```js
+// right
+{name: 'lero'}
+const {foo, bar} = object
+
+// wrong
+{ name: 'lero' }
+const { foo, bar } = object
 ```
