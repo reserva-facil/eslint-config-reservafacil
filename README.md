@@ -141,3 +141,17 @@ const {foo, bar} = object
 { name: 'lero' }
 const { foo, bar } = object
 ```
+
+### array-bracket-spacing
+
+Without space is more clean.
+
+```js
+// right
+[name: 'lero']
+const [foo, bar] = array
+
+// wrong
+[ name: 'lero' ]
+const [ foo, bar ] = array
+```
