@@ -245,3 +245,29 @@ function (a, b, c) {
   return a + b
 }
 ```
+
+### block-scoped-var
+
+Forces to use variable inside scope where you created. This avoid errors.
+
+```js
+// right
+function test() {
+  let name
+
+  if (condition) {
+    name = 'lero'
+  }
+
+  return name
+}
+
+// wrong
+function test() {
+  if (condition) {
+    let name = 'lero'
+  }
+
+  return name
+}
+```
