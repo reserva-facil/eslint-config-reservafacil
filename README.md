@@ -200,3 +200,32 @@ const name = 'lero'
 // wrong
 name = 'lero'
 ```
+
+### no-undef
+
+Disallow use of undefined variables, helping you to declare how and from you're importing/using variables
+
+```js
+// right
+require('angular')
+
+angular.module('app')
+
+// right
+import angular from 'angular'
+
+angular.module('app')
+
+// wrong
+angular.module('app')
+```
+
+```js
+// right
+const {HTMLElement} = window
+
+class MyComponent extends HTMLElement {}
+
+// wrong
+class MyComponent extends HTMLElement {}
+```
