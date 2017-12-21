@@ -229,3 +229,19 @@ class MyComponent extends HTMLElement {}
 // wrong
 class MyComponent extends HTMLElement {}
 ```
+
+### no-unused-vars
+
+Many times we create a variable, but never use it, serious, this happens all time.
+
+```js
+// right
+function (a, b) {
+  return a + b
+}
+
+// wrong
+function (a, b, c) {
+  return a + b
+}
+```
