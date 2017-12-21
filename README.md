@@ -72,12 +72,32 @@ Sometimes we forget, or dont know about scope of conditionals in javascript with
 ```js
 // right
 if (condition) {
-  // instruction1
-  // instruction2
+  console.log('lorem') // instruction1
+  console.log('lorem') // instruction2
 }
 
 // wrong
 if (condition)
-  // instruction1 will be executed if condition is true
-  // instruction2 always be executed, but looks like not
+  console.log('lorem') // instruction1 will be executed if condition is true
+  console.log('lorem') // instruction2 always be executed, but looks like not
+```
+
+#### brace-style
+
+We use use the below format, for one reason, help fold and unfold scopes in code editors and IDE's.
+
+```js
+// right
+if (condition) {
+
+}
+
+// wrong
+if (condition)
+{
+
+}
+
+// wrong
+if (condition) {}
 ```
