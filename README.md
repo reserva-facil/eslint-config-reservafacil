@@ -64,3 +64,20 @@ console.log('lorem 2');
 // wrong
 console.log('lorem'); console.log('lorem 2');
 ```
+
+#### curly
+
+Sometimes we forget, or dont know about scope of conditionals in javascript without curly. To avoid confusion, always write using curly.
+
+```js
+// right
+if (condition) {
+  // instruction1
+  // instruction2
+}
+
+// wrong
+if (condition)
+  // instruction1 will be executed if condition is true
+  // instruction2 always be executed, but looks like not
+```
