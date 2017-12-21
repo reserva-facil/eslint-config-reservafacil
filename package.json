@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-reservafacil",
+  "version": "1.0.0",
+  "description": "Javascript patterns used on Reservafacil",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+      "eslint",
+      "eslintconfig",
+      "reservafacil",
+      "javascript",
+      "es6",
+      "es7"
+  ],
+  "author": "Darlan Mendonça <darlanmendonca@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/minimalist-components/eslint-config-reservafacil",
+  "bugs": "https://github.com/minimalist-components/eslint-config-reservafacil/issues",
+  "author": "Darlan Mendonça <darlanmendonca@gmail.com> (https://github.com/darlanmendonca)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/minimalist-components/eslint-config-reservafacil.git"
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
